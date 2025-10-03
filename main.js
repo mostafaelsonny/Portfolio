@@ -266,7 +266,7 @@ gsap.utils.toArray('.path').forEach((el) => {
 // ============================= PERCENT =============================
 gsap.registerPlugin(ScrollTrigger);
 
-document.querySelectorAll("h5").forEach(head => {
+document.querySelectorAll("text").forEach(head => {
   let percent = +head.dataset.target;
   let counter = { value: 0 }; // هنخزن الرقم هنا
 

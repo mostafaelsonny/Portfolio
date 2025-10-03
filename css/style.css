@@ -666,7 +666,7 @@ background-color: var(--color-button-bg);
 .skills .container .soft_skills .soft {
   width: fit-content;
   margin-bottom: 20px;
-  position: relative;
+
 
 }
 
@@ -678,8 +678,8 @@ background-color: var(--color-button-bg);
 .container .soft_skills .soft h5{
   color: var(--color-border-end);
   position: absolute;
-    top: 53%;
-    left: 45%;
+    top: 54%;
+    left: 40%;
     font-size: 20px;
 
 
@@ -689,6 +689,11 @@ background-color: var(--color-button-bg);
   width: 300px;
   height: 200px;
   
+}
+
+.soft_skills .soft svg text {
+  fill: var(--color-border-end);
+  font-weight: 800;
 }
 
 .soft_skills .soft svg .progress{
