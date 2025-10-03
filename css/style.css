@@ -1110,7 +1110,7 @@ background-color: var(--color-button-bg);
     width: 100%;
   }
   .home{
-    width: 112%;
+    width: 120%;
     margin-top: 50px;
   }
   .home img{
@@ -1121,7 +1121,7 @@ background-color: var(--color-button-bg);
   }
   .about {
     margin-top: 100px;
-    width: 112%;
+    width: 120%;
   }
   .about .about_img img {
     margin-top: 35px;
@@ -1136,7 +1136,7 @@ background-color: var(--color-button-bg);
 
 .services{
   margin-top: 100px;
-  width: 112%;
+  width: 120%;
 }
 .services .container{
   grid-template-columns: repeat(1,1fr);
@@ -1145,20 +1145,20 @@ background-color: var(--color-button-bg);
   text-align: center;
 }
 .skills{
-  width: 112%;
+  width: 120%;
 } 
 .projects .container{
   grid-template-columns: repeat(1,1fr);
   width: 92%;
 }
   .projects {
-    width: 105%;
+    width: 115%;
   }
   .projects .container .project{
     margin-left: 25px;
   }
   .contact{
-    width: 97%;
+    width: 110%;
     height: 110vh;
     text-align: center;
   } 
