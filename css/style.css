@@ -865,6 +865,29 @@ background-color: var(--color-button-bg);
   padding: 10px;
 }
 
+.projects .container .project .gopro{
+  width: 100%;
+}
+
+.projects .container .project .gopro a {
+  display: block;
+  width: 80%;
+  background-color: #7a5cff75;
+  cursor: pointer;
+  margin: 15px auto;
+  border: none;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+  color: white;
+  text-align: center;
+  transition: all .3s ease;
+}
+
+.projects .container .project .gopro a:hover {
+  background-color: var(--color-border-end);
+}
+
         /* <!-- ============================= END PROJECTS ======================= --> */
 
 
