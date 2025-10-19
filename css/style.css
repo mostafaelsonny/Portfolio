@@ -996,7 +996,7 @@ background-color: var(--color-button-bg);
   border-radius: 5px;
   outline-style: none;
   background-color: #ffffffb0;
-  transform: translateX(70px);
+  transform: translateX(50px);
   opacity: 0;
  }
   .contact .container form input::placeholder{
