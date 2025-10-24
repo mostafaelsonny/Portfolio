@@ -1185,9 +1185,9 @@ background-color: var(--color-button-bg);
     height: 110vh;
     text-align: center;
   } 
-  .contact .container{
+  /* .contact .container{
     margin-left: 50px;
-  }
+  } */
   .main_menu {
     width: 97%;
 }
@@ -1201,4 +1201,11 @@ header .container {
   justify-content: space-between;
   align-items: center;
   padding: 20px 0;  /* بس فوق وتحت */
+}
+html, body {
+  overflow-x: hidden;
+}
+* {
+  max-width: 100%;
+  box-sizing: border-box;
 }
