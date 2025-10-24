@@ -1128,13 +1128,16 @@ background-color: var(--color-button-bg);
   }
   header {
     width: 100%;
+    padding: 5px 10% ;
   }
   .container {
     width: 100%;
+    /* padding: 5px 10%; */
   }
   .home{
     width: 120%;
     margin-top: 50px;
+    padding: 30px 5%;
   }
   .home img{
     height: 250px;
@@ -1163,6 +1166,7 @@ background-color: var(--color-button-bg);
 }
 .services .container{
   grid-template-columns: repeat(1,1fr);
+  width: 80%;
 }
 .services .container .card{
   text-align: center;
@@ -1170,16 +1174,19 @@ background-color: var(--color-button-bg);
 .skills{
   width: 120%;
 } 
+.skills .container {
+  width: 90%;
+}
 .projects .container{
   grid-template-columns: repeat(1,1fr);
-  width: 92%;
+  width: 80%;
 }
   .projects {
     width: 115%;
   }
-  .projects .container .project{
+  /* .projects .container .project{
     margin-left: 25px;
-  }
+  } */
   .contact{
     width: 110%;
     height: 110vh;
@@ -1195,7 +1202,7 @@ background-color: var(--color-button-bg);
 /* ================================== RESPONSIVE ============================ */
 
 header .container {
-  width: 90%;       /* اللي يظبط المحتوى */
+  width: 85%;       /* اللي يظبط المحتوى */
   margin: 0 auto;   /* يخليه في النص */
   display: flex;
   justify-content: space-between;
