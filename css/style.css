@@ -772,7 +772,7 @@ background-color: var(--color-button-bg);
 .projects_header {
   margin: 0 auto 40px;
   color: white;
-  font-size: 25px;
+  font-size: 20px;
   margin-bottom: 70px;
   width: fit-content;
   
@@ -1128,7 +1128,7 @@ background-color: var(--color-button-bg);
   }
   header {
     width: 100%;
-    padding: 5px 10% ;
+    padding: 0px 5% ;
   }
   .container {
     width: 100%;
@@ -1148,6 +1148,7 @@ background-color: var(--color-button-bg);
   .about {
     margin-top: 100px;
     width: 120%;
+    height: 110vh;
   }
   .about .about_img img {
     margin-top: 35px;
@@ -1170,6 +1171,7 @@ background-color: var(--color-button-bg);
 }
 .services .container .card{
   text-align: center;
+  padding: 15px;
 }
 .skills{
   width: 120%;
@@ -1197,6 +1199,13 @@ background-color: var(--color-button-bg);
   } */
   .main_menu {
     width: 97%;
+}
+.skills .container .technologies{
+  width: 90%;
+  margin: 0 auto;
+}
+.soft_skills .soft svg{
+  width: 140px;
 }
 }
 /* ================================== RESPONSIVE ============================ */
