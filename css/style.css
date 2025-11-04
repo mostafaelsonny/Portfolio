@@ -1207,6 +1207,9 @@ background-color: var(--color-button-bg);
 .soft_skills .soft svg{
   width: 140px;
 }
+.about .content {
+  margin-bottom: 50px;
+}
 }
 /* ================================== RESPONSIVE ============================ */
 
